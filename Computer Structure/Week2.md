@@ -1,8 +1,10 @@
-# Computer Structure
+# Week #2
 
-Week #2
-Instal nand2tetris
-Do Project 
+Mid and Final exam Task is Do Project
+
+Go to [nand2tetris.org](https://www.nand2tetris.org/software) and download the software
+
+Instal nand2tetris and Do the Project 
 
 Project 1: Boolean Logic
 
