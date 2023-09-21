@@ -16,7 +16,7 @@ Project 4: Machine Language
 
 Project 5: Computer Architecture
 
-<img src="Images/a.jpg" alt="Picture loss" width="150">
+<img src="Images/b.jpg" alt="Picture loss" width="250">
 
 
 Build the following logic gates on visual studio
