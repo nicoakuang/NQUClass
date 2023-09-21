@@ -10,6 +10,7 @@ Project 3: Sequential Logic
 Project 4: Machine Language
 Project 5: Computer Architecture
 
-![](https://github.com/nicoakuang/mynote/blob/main/assets/125626500/8c75c8bf-e914-41ab-87f5-b9c7d97e22d9.png?raw=true){width=200px}
+![136691](https://github.com/nicoakuang/mynote/assets/125626500/2ae8baa5-8f2e-4715-b8d7-b38f84e9d158){width=100px}
 
 Build the following logic gates on visual studio
+
