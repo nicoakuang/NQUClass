@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Computer Structure
 
 Week #2
@@ -17,4 +18,6 @@ Project 5: Computer Architecture
 
 Build the following logic gates on visual studio
 >>>>>>> 56b477930b1be0b46b71d4c4955f587e9e6ae19a
+=======
+>>>>>>> ae88d7ef3371530f56e7bc5c9a23634743242174
 
