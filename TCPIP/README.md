@@ -5,4 +5,4 @@ Group: Elective Course (Three Credits)
 Rating: 9/10 Points
 Anynote: 
 
-![Teaching progress chart](TCPIP/Images/chart.png)
+![Teaching progress chart](chart.png)
