@@ -5,4 +5,4 @@ Group: Elective Course (Three Credits)
 Rating: 9/10 Points
 Anynote: 
 
-![Teaching progress chart](supply/chart.png)
+![Teaching progress chart](NQUNote\Images\chart.png)
