@@ -1,1 +1,0 @@
-Note for 112 Computer Structure Class
