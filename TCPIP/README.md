@@ -11,8 +11,11 @@ Anynote:
 
 
 ### 112Year, MidTerm Exam with answer
-<img src="Images/midexam.jpg" width="300"/>
-<img src="Images/ipv6.jpg" width="300"/>
-<img src="Images/ipv4.png" width="300"/>
-<img src="Images/setup.jpg" width="300"/>
-<img src="Images/teardown.jpg" width="300"/>
+<div style="display:flex; flex-direction:row; justify-content: space-between; align-items: center;">
+  <img src="Images/midexam.jpg" width="300"/>
+  <img src="Images/ipv6.jpg" width="300"/>
+  <img src="Images/ipv4.png" width="300"/>
+  <img src="Images/setup.jpg" width="300"/>
+  <img src="Images/teardown.jpg" width="300"/>
+</div>
+
