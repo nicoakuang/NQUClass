@@ -14,6 +14,6 @@ Anynote:
 <div style="display:flex; flex-direction:row; justify-content: space-between; align-items: center;">
   <img src="Images/midexam.jpg" width="300"/>
   <img src="Images/answer.jpg" width="500"/>
-  <img src="Images/answers.jpg" width="500"/>
+  <img src="Images/answers.jpg" width="300"/>
 </div>
 
