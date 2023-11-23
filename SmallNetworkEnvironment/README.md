@@ -40,6 +40,7 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 4 Open Virtual Machine Setting ~ Network Adapter choose <code>NAT</code> ~ Save
 
 5 Play Virtual Machine
+<h6> Pop Info: If you no turn on VirtualMachine, you can't access the website</h6>
 
 6 First display in Virtual Machine will show picture like below there, copy the <code>Ip Address</code> and paste to browser 
 <img src="images/pnet.png" alt="PNET Website" width="400"/>
