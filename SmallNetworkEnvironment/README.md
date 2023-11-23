@@ -32,7 +32,9 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 2 Open <code>Window security</code> ~ <code>Device security</code> ~ Turn off <code>Core isolationty</code> when build a Workstation
 
 3 Open <code>Wmware</code> ~ <code>Open a Virtual Machine</code> ~ Import from <code>PNET</code> file
+
 <img src="images/import.png" alt="Import Virtual Machine" width="400"/>
+
 <h6> Pop info: When building a Workstation <code>Core isolation</code> should be turn off</h6>
 
 4 Open Virtual Machine Setting ~ Network Adapter choose <code>NAT</code> ~ Save
