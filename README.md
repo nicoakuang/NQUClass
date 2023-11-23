@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # NQU Course Sharing
 ```
 Course name: TCP/IP Protocol Suite 
@@ -18,6 +17,3 @@ Anynote:
   <img src="Images/answers.jpg" width="250"/>
 </div>
 
-=======
-# NQU Note
->>>>>>> dc03a100b4327f800bc07fee9e5b11c481dc8ed7
