@@ -98,6 +98,10 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 
 <img src="images/set3.png" alt="Set VPC3" width="400"/>
 
+<h6> Pop Info: <code>ping 192.168.1.1</code> = Testing PV2
+  
+& <code>ping 192.168.1.2</code> =Testing PV3</h6>
+
 #### C. Closing Project~
 
 18 Mouse go right ~ Setup Nodes ~ Stop All Nodes ~ Nodes will turn gray color ~ Mouse go right ~ Destroy Lab ~ Logout
