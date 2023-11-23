@@ -1,26 +1,26 @@
-# Build a small network environtment
+# Build a small network environment
 # 建構網路環境
 ```
 金門大學資訊工程學系 
-Led by 鄭石光 under guidance of Professor 柯志亨
+Led by 鄭石光 under the guidance of Professor 柯志亨
 ``` 
 
 
 ### Welcome~
-Welcome to our exploration of building a small network environment. Throughout this , we will guide you through the fundamental aspects of creating a well-structured and efficient network, providing insights into essential components and best practices under the guidance of our experienced Professors 柯志亨 focusing on performing experiments in the field of [Network Environtment].
+Welcome to our exploration of building a small network environment. Throughout this, we will guide you through the fundamental aspects of creating a well-structured and efficient network, providing insights into essential components and best practices under the guidance of our experienced Professors 柯志亨 focusing on performing experiments in the field of [Network Environtment].
 
 ### 1. Material 
-1.Vmware Workstation Player
+1. Vmware Workstation Player
 ```
 https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
 ```
 
 2.EVE-NG-Win-Client-Pack.exev
 
-##### Windows client side pack that will install everything necessary for running telnet, vnc, wireshark, rdp applications included Wireshark, UltraVNC (Repeater, Server, Viewer, Launcher)
+##### Windows client side pack that will install everything necessary for running telnet, vnc, Wireshark, and rdp applications including Wireshark, UltraVNC (Repeater, Server, Viewer, Launcher)
 
 
-3.PNET4.2.10 (Modifed for project)
+3.PNET4.2.10 (Modified for project)
 ```
 https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sharing
 ```
@@ -30,7 +30,7 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 1 Download all material up there
 
 2 Open <code>Window security</code> ~ <code>Device security</code> ~ Turn off <code>Core isolation</code> when build a Workstation
-<h6> Pop info: Because <code>Core isolation</code> is on, i can't create the virtual machine, after i turn off <code>Core isolation</code> i already can create a virtual machine </h6>
+<h6> Pop info: Because <code>Core isolation</code> is on, I can't create the virtual machine, after I turn off <code>Core isolation</code> I already can create a virtual machine </h6>
 
 3 Open <code>Wmware</code> ~ <code>Open a Virtual Machine</code> ~ Import from <code>PNET</code> file
 
@@ -41,14 +41,14 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 4 Open Virtual Machine Setting ~ Network Adapter choose <code>NAT</code> ~ Save
 
 5 Play Virtual Machine
-<h6> Pop Info: If you no turn on VirtualMachine, you can't access the website</h6>
+<h6> Pop Info: If you didn't turn on VirtualMachine, you can't access the website</h6>
 
-6 First display in Virtual Machine will show picture like below there, copy the <code>Ip Address</code> and paste to browser 
+6 First display in Virtual Machine will show a picture like the one below, copy the <code> IP Address</code> and paste it to the browser 
 <img src="images/pnet.png" alt="PNET Website" width="400"/>
 
 7 SignUp ~ Email Activation ~ Login in <code>Website</code>
 
-#### B. Build a Environment~
+#### B. Build an Environment~
 
 8 Add new lab ~ give name ~ Add
 
@@ -82,7 +82,7 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 <img src="images/startconnect.png" alt="Start all nodes" width="400"/>
 
 
-14 After connect All Nodes will turn blue color if connected
+14 After connecting All Nodes will turn blue color if connected
 
 <img src="images/afterconnect.png" alt="Start all nodes" width="400"/>
 
