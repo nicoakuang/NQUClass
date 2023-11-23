@@ -29,7 +29,8 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 #### A. PNET Setup~
 1 Download all material up there
 
-2 Open <code>Window security</code> ~ <code>Device security</code> ~ Turn off <code>Core isolationty</code> when build a Workstation
+2 Open <code>Window security</code> ~ <code>Device security</code> ~ Turn off <code>Core isolation</code> when build a Workstation
+<h6> Pop info: Because <code>Core isolation</code> is on, i can't create the virtual machine, after i turn off <code>Core isolation</code> i already can create a virtual machine </h6>
 
 3 Open <code>Wmware</code> ~ <code>Open a Virtual Machine</code> ~ Import from <code>PNET</code> file
 
