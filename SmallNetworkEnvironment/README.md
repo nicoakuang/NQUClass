@@ -71,5 +71,5 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 13 Mouse go right ~ Setup Nodes ~ Start All Nodes
 <img src="startconnect.png" alt="Start all nodes" width="400"/>
 
-14 After Connec
+14 After Connect
 ![Alt text](image.png)
