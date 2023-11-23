@@ -48,11 +48,15 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 
 #### B. Build a Environment~
 
-8 Add new lab ~ give name ~ Add 
+8 Add new lab ~ give name ~ Add
+
 <img src="images/login.png" alt="Add new lab" width="400"/>
 
+
 9 Mouse go right ~ Add an Object ~ Nodes
+
 <img src="images/nodes.png" alt="PNET nodes" width="400"/>
+
 
 10 Choose <code>Cisco IOL L2</code> ~ Name = SW ~ Tap Icon = Switch Blue.png ~ Save
 
@@ -61,27 +65,34 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 <h6> Pop Info: <code>Cisco IOL</code> = Router
 & <code>Cisco IOL L2</code> = Switch</h6>
 
-11 Mouse go right ~ Add an Object ~ Nodes
-<img src="images/nodes.png" alt="PNET nodes" width="400"/>
+11 Mouse go right ~ Add an Object ~ Nodes ~ Choose <code>Virtual PC VPCS</code> ~ <code>Number of nodes to add = 2</code> ~ Name = VPC ~ Tap Icon = Desktop.png ~ Save
 
-11 Choose <code>Virtual PC VPCS</code> ~ <code>Number of nodes to add = 2</code> ~ Name = VPC ~ Tap Icon = Desktop.png ~ Save
 <img src="images/pcs.png" alt="Second nodes" width="400"/>
 
+
 12 Mouse to node ~ Connect to another node ~ <code>VPC2 & VPC3 to SW</code>
+
 <img src="images/connection.png" alt="Connection" width="400"/>
 
+
 13 Mouse go right ~ Setup Nodes ~ Start All Nodes
+
 <img src="images/startconnect.png" alt="Start all nodes" width="400"/>
+
 
 14 After connect All Nodes will turn blue color if connected
 
 <img src="images/afterconnect.png" alt="Start all nodes" width="400"/>
 
 15 Tap <code>VPC2</code> ~ Will show Popup ~ Press <code>Open SSH, Telnet, Rlogin client</code>
+
 <img src="images/setip.png" alt="Start all nodes" width="400"/>
 
+
 16 In <code>VPC2</code> type <code>ip 192.158.1.1 255.255.255.0</code>
+
 <img src="images/set2.png" alt="Set VPC2" width="400"/>
+
 
 17 In <code>VPC3</code> type <code>ip 192.158.1.2 255.255.255.0</code> ~ then type <code>ping 192.168.1.1</code> for test connection VPC2
 
@@ -93,7 +104,9 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 <img src="images/finish.png" alt="Stop Project" width="400"/>
 
 19 Open Vmware ~ Shut Down Guest
+
 <img src="images/terminate.png" alt="Terminate Virtual Machine" width="400"/>
+
 
 20 Window Security ~ Device security ~ Turn back on <code>Core isolation</code>
 
