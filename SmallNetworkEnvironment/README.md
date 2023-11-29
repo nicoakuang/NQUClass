@@ -32,6 +32,9 @@ https://drive.google.com/drive/folders/1ST30mpqev3Hhxmoi42X1DnD0HE9nl-SU?usp=sha
 2 Open <code>Window security</code> ~ <code>Device security</code> ~ Turn off <code>Core isolation</code> when build a Workstation
 <h6> Pop info: Because when <code>Core isolation</code> is on, I can't create the virtual machine, after I turn off <code>Core isolation</code> I already can create a virtual machine, Maybe it's because when we build a Virtual Machine we need to add Core to the Machine. </h6>
 
+<img src="images/core.png" alt="Turn off Core Isolation" width="400"/>
+
+
 3 Open <code>Wmware</code> ~ <code>Open a Virtual Machine</code> ~ Import from <code>PNET</code> file
 
 <img src="images/import.png" alt="Import Virtual Machine" width="400"/>
