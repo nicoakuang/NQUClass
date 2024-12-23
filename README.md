@@ -2,6 +2,8 @@ https://www.canva.com/design/DAGSlRDKZ8U/1NUyByFUJRuSygZfiTpOkA/edit?utm_content
 
 https://drive.google.com/file/d/1zID9-IJaM95lBiUkdT1wLfwmRxfi8xNx/view?usp=drivesdk
 
+
+https://www.canva.com/design/DAGZ1UeWO2A/X63zbCU3CtnU_QB6n4d5Fw/edit?utm_content=DAGZ1UeWO2A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 # NQU Course Sharing
 ```
 Course name: TCP/IP Protocol Suite 
