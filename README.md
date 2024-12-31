@@ -21,3 +21,5 @@ Anynote:
 </div>
 
 [https://www.canva.com/design/DAGSlRDKZ8U/1NUyByFUJRuSygZfiTpOkA/edit](https://www.canva.com/design/DAGSlRDKZ8U/1NUyByFUJRuSygZfiTpOkA/edit?utm_content=DAGSlRDKZ8U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+<img width="472" alt="Screenshot 2024-12-31 at 9 42 15 AM" src="https://github.com/user-attachments/assets/bdfaa78e-7b32-4755-9490-8ad92b6162a3" />
