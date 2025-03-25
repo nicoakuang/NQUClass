@@ -1,6 +1,7 @@
-[](https://www.canva.com/design/DAGUxGxImEA/DCSZYGO8_kY0JnfrFePHAA/edit?utm_content=DAGUxGxImEA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+https://www.canva.com/design/DAGijd4woMc/tZJrWIz5t-yn0aObv_NV0w/edit?utm_content=DAGijd4woMc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-https://www.canva.com/design/DAGUxGxImEA/DCSZYGO8_kY0JnfrFePHAA/edit?utm_content=DAGUxGxImEA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
 # NQU Course Sharing
 ```
 Course name: TCP/IP Protocol Suite 
