@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises - Learn Traditional Chinese</title>
+    <link rel="stylesheet" href="../css/style.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Learn Traditional Chinese Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li> 
+            <li><a href="materials.html">Materials</a></li>
+            <li><a href="exercises.html">Exercises</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            </ul>
+    </nav>
+
+    <main>
+        <h2>Interactive Exercises (互動練習)</h2>
+        <p>Test your knowledge with these simple quizzes!</p>
+
+        <form class="quiz-form" id="quizForm">
+
+            <fieldset>
+                <legend>
+                    Question 1: What is the Pinyin for the character <strong>人</strong>? 
+                    <span class="feedback" id="feedback-q1"></span>
+                </legend>
+                <label><input type="radio" name="q1" value="a" data-answer-text="rén" required> rén</label><br>
+                <label><input type="radio" name="q1" value="b" data-answer-text="dà"> dà</label><br>
+                <label><input type="radio" name="q1" value="c" data-answer-text="tiān"> tiān</label><br>
+                <span class="correct-answer" id="correct-q1"></span>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Question 2: What is the meaning of <strong>謝謝</strong>?
+                    <span class="feedback" id="feedback-q2"></span>
+                </legend>
+                <label><input type="radio" name="q2" value="a" data-answer-text="Hello" required> Hello</label><br>
+                <label><input type="radio" name="q2" value="b" data-answer-text="Goodbye"> Goodbye</label><br>
+                <label><input type="radio" name="q2" value="c" data-answer-text="Thank you"> Thank you</label><br>
+                <span class="correct-answer" id="correct-q2"></span>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Question 3: Which character means 'Five' (五)?
+                    <span class="feedback" id="feedback-q3"></span>
+                </legend>
+                <label><input type="radio" name="q3" value="a" data-answer-text="三" required> 三</label><br>
+                <label><input type="radio" name="q3" value="b" data-answer-text="五"> 五</label><br>
+                <label><input type="radio" name="q3" value="c" data-answer-text="十"> 十</label><br>
+                <span class="correct-answer" id="correct-q3"></span>
+            </fieldset>
+            
+            <fieldset>
+                <legend>
+                    Question 4: What is <strong>你好 (nǐ hǎo)</strong>?
+                    <span class="feedback" id="feedback-q4"></span>
+                </legend>
+                <label><input type="radio" name="q4" value="a" data-answer-text="Goodbye" required> Goodbye</label><br>
+                <label><input type="radio" name="q4" value="b" data-answer-text="Hello"> Hello</label><br>
+                <label><input type="radio" name="q4" value="c" data-answer-text="Sorry"> Sorry</label><br>
+                <span class="correct-answer" id="correct-q4"></span>
+            </fieldset>
+
+            <button type="submit">Check My Answers!</button>
+
+        </form>
+        
+        <div id="quizResults" style="margin-top: 20px; font-size: 1.2em; font-weight: bold;">
+            </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Learn Traditional Chinese. All Rights Reserved.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

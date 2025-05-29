@@ -1,0 +1,378 @@
+/* Basic Body Styles */
+body {
+    font-family: "Microsoft JhengHei", "PingFang TC", Arial, sans-serif; /* Fonts supporting Traditional Chinese + fallback */
+    line-height: 1.6; /* Spacing between lines */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+/* Container for Centering Content */
+.container { /* We will add this class later if needed, but for now let's style the body */
+    max-width: 960px; /* Max width of content */
+    margin: 20px auto; /* Center the content with some top/bottom margin */
+    background-color: #fff; /* White background for content area */
+    padding: 20px;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Header Styling */
+header {
+    background-color: #8B0000; /* Dark red - often associated with Chinese culture */
+    color: #fff; /* White text */
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: #7A0000 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Navigation Menu Styling */
+nav {
+    background-color: #333; /* Dark grey for nav bar */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Remove bullet points */
+}
+
+nav ul li {
+    display: inline; /* Make list items appear side-by-side */
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff; /* White link text */
+    text-decoration: none; /* Remove underlines */
+    font-size: 1.1em;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #555; /* Darker grey on hover */
+    border-radius: 4px;
+}
+
+/* Main Content Area */
+main {
+    padding: 20px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #555; /* Lighter grey text */
+    background-color: #e2e2e2; /* Light grey footer background */
+    border-top: 1px solid #ccc;
+}
+
+/* --- Optional: Add the .container --- */
+/* If you want the centered white box effect, you need to wrap your 
+   header, nav, main, and footer inside a <div> in each HTML file like this:
+   <body>
+       <div class="container">
+           <header>...</header>
+           <nav>...</nav>
+           <main>...</main>
+           <footer>...</footer>
+       </div>
+   </body>
+   If you prefer a full-width design for now, you don't need this div or its CSS.
+   For simplicity, let's stick with full-width for now and NOT add the .container.
+   We can add it later if you want. Let's remove the .container CSS for now.
+*/
+
+/* --- Revised Basic CSS (without .container for now) --- */
+body {
+    font-family: "Microsoft JhengHei", "PingFang TC", Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #8B0000;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: #7A0000 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+main {
+    padding: 20px;
+    max-width: 960px; /* Set max width for main content */
+    margin: 20px auto; /* Center main content */
+    background-color: #fff; /* White background for main content */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #555;
+    background-color: #e2e2e2;
+    border-top: 1px solid #ccc;
+}
+
+/* Styling for Materials Page */
+.character-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.character-table th, 
+.character-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.character-table th {
+    background-color: #f2f2f2;
+}
+
+.character-table .char {
+    font-size: 2.5em; /* Make characters bigger */
+    font-family: "Microsoft JhengHei", "PingFang TC", BiauKai, DFKai-sb, sans-serif; /* Emphasize specific CJK fonts */
+}
+
+section {
+    margin-bottom: 40px; /* Add space between sections */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #8B0000; /* Red accent border */
+    border-radius: 5px;
+}
+
+section h3 {
+    margin-top: 0;
+    color: #8B0000;
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Styling for Exercises Page */
+.quiz-form fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff; /* Pastikan background putih jika main tidak putih */
+}
+
+.quiz-form legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+    padding: 0 5px;
+}
+
+.quiz-form label {
+    display: block; 
+    margin-bottom: 10px; /* Jarak antar pilihan */
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+.quiz-form label:hover {
+	background-color: #f0f0f0; /* Efek hover */
+    border-radius: 4px;
+}
+
+.quiz-form input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Sedikit perbesar radio button */
+}
+
+.quiz-form button {
+    display: inline-block; /* Ubah ke inline-block */
+    padding: 12px 30px; /* Perbesar padding */
+    background-color: #5cb85c; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em; /* Perbesar font */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Beri jarak atas */
+}
+
+.quiz-form button:hover {
+    background-color: #4cae4c; 
+}
+
+.quiz-form small {
+	display: block;
+    margin-top: 15px;
+    color: #777;
+}
+
+/* Styling for Home Page Guide */
+.guide-section {
+    background-color: #fff; /* Pastikan background putih */
+    padding: 25px;
+    margin-top: 30px; /* Jarak dari atas */
+    margin-bottom: 30px; /* Jarak ke bawah */
+    border-radius: 8px;
+    /* Gunakan box-shadow dari 'main' atau buat yang baru */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08); 
+    border: 1px solid #e0e0e0;
+}
+
+.guide-section h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 1.4em;
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 10px;
+    display: inline-block; /* Agar border pas */
+}
+
+/* Center the h3 */
+.guide-section {
+    text-align: center; /* Center align container */
+}
+.guide-section h3 {
+    display: inline-block; /* Make h3 inline-block */
+    text-align: center; /* Keep text centered */
+}
+/* Reset text align for steps */
+.guide-step {
+    text-align: left; /* Align text left for steps */
+}
+
+
+.guide-step {
+    border: 1px solid #e9e9e9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: #fdfdfd;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-left: 5px solid #5cb85c; /* Aksen hijau */
+}
+
+.guide-step:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.guide-step h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #8B0000; /* Warna merah header */
+    font-size: 1.3em;
+}
+
+.guide-step p {
+    font-size: 1.05em;
+    line-height: 1.7;
+}
+
+.guide-step a {
+    font-weight: bold;
+    color: #0066cc; /* Biru untuk link */
+    text-decoration: none;
+}
+
+.guide-step a:hover {
+    text-decoration: underline;
+    color: #004c99;
+}
+
+/* Styling untuk gambar (jika Anda menambahkannya) */
+.home-image {
+   display: block;
+   max-width: 80%; /* Atur sesuai kebutuhan */
+   margin: 20px auto 30px auto; /* Tengah & beri jarak */
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Styling for Quiz Feedback */
+.feedback {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.feedback.correct {
+    color: green;
+}
+
+.feedback.incorrect {
+    color: red;
+}
+
+.correct-answer {
+    display: block; /* Agar muncul di baris baru */
+    margin-top: 5px;
+    margin-left: 25px; /* Sedikit indentasi */
+    font-style: italic;
+    color: #555; /* Warna abu-abu untuk jawaban benar */
+    font-size: 0.9em;
+}
